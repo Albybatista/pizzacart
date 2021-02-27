@@ -4,7 +4,7 @@ import { GlobalStyle } from './globalStyles';
 import Hero from './components/Hero';
 import { productData, productDataDesserts } from './components/Products/data';
 import Feature from './components/Feature';
-
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <Products heading='Choose your Pizza' data={productData} />
       <Feature />
       <Products heading='Sweet Treats for You' data={productDataDesserts} />
+      <Footer />
     </Router>
   );
 }
