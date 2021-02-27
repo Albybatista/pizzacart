@@ -1,7 +1,9 @@
-import product1 from '../../images/products-1.jpg'
-import product2 from '../../images/products-2.jpg'
-import product3 from '../../images/products-3.jpg'
-
+import product1 from '../../images/products-1.jpg';
+import product2 from '../../images/products-2.jpg';
+import product3 from '../../images/products-3.jpg';
+import sweet1 from '../../images/sweet-1.jpg';
+import sweet2 from '../../images/sweet-2.jpg';
+import sweet3 from '../../images/sweet-3.jpg';
 
 export const productData = [
     {
@@ -28,4 +30,31 @@ export const productData = [
         price: '$23.99',
         button: 'Add to Cart'
     },
-]
+];
+
+export const productDataDesserts = [
+    {
+        img: sweet1,
+        alt: 'Donuts',
+        name: 'Doughlicious',
+        desc: 'Belgian chocolate glazed donuts covered in icing with sprinkles on top',
+        price: '$9.99',
+        button: 'Add to Cart'
+    },
+    {
+        img: sweet2,
+        alt: 'Ice Cream',
+        name: 'Caramel Wonder',
+        desc: 'Vanilla Ice Cream covered with caramel and chocolate glaze topped with a coco stick',
+        price: '$12.99',
+        button: 'Add to Cart'
+    },
+    {
+        img: sweet3,
+        alt: 'Brownie',
+        name: 'Brownie Bunch',
+        desc: 'Double fudge brownie squares topped with white chocolate pieces and macamaia nuts',
+        price: '$9.99',
+        button: 'Add to Cart'
+    },
+];
